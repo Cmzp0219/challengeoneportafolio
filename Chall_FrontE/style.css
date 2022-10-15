@@ -1,0 +1,274 @@
+body{ background-color: aliceblue;
+    margin: 0%;
+
+}
+/*header*/
+header{
+    background-color: white;
+    height: 88px;
+}
+.itemnav{
+    float: left;
+    list-style: none;
+    padding: 27px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+#barranav{
+    float: right;
+}
+#nombre{
+    margin-right: 270px;
+}
+#contactohead{
+    font-weight: 800;
+}
+
+/*header FIN*/
+
+
+/*banner*/
+.contenido{
+
+}
+.banner{
+margin-top: 75px;
+    height: 300px;
+}
+.listaredes{
+ list-style: none;
+ display: inline;
+ padding: 30px;
+ font-size: 0.45cm;
+ font-family: 'Roboto', sans-serif;
+}
+#titulobanner{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 74px;
+    font-weight: 850;
+    font-size: 1cm;  
+}
+#contenidobanner{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 74px; 
+    font-size: 0.7cm;  
+    font-weight:200;
+}
+.imgbanner{
+border-radius: 100%;
+margin-right: 80px;
+width: 315px;
+float: right;
+}
+/*banner FIN*/
+
+
+/*Sobre Mi*/
+.titulosobremi{
+    font-family: 'Roboto', sans-serif;
+      margin-left: 70px;
+      margin-bottom: 40px;
+}
+.txtsobremi{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.5cm;
+    margin-right: 400px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+
+}
+.sobremi{
+    background-color: lightslategray ;
+    margin-top: 100px;
+}
+.imgsobremi{
+   width: 300px;
+}
+/*Sobre Mi FIN*/
+
+/*skills*/
+#giticon{
+    width: 133px;
+}
+#jsicon{
+    width: 120px;
+}
+#jicon{
+    width: 104px;
+}
+#dataicon{
+    width: 120px;
+}
+#pythonicon{
+    width: 120px;
+}
+.skillstitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;  
+    font-size: 1cm;
+    text-align: center;
+    margin-top: 30px;
+}
+.imgicon{
+    padding: 40px;
+    margin-left: 45px;
+    border: solid black;
+    display: inline;
+}
+.txticon{
+    display: inline;
+  padding: 88px;
+  font-size: 0.40cm;
+  margin-left: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+/*skills FIN*/
+
+/*hobbies*/
+.titulohobbies{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;  
+    font-size: 1cm;
+    text-align: center; 
+    margin-top: 30px;
+}
+.hobbiesimg{
+    padding: 80px;
+    margin-left: 45px;
+    border: solid black;
+    display: inline;  
+}
+#tvicon{
+    width: 126px;
+}
+#caricon{
+    width: 103px;
+}
+#aurisicon{
+    width: 101px;
+}
+#basketicon{
+    width: 102px;
+}
+.txthobbies{
+    display: inline;
+    padding: 115px;
+    font-size: 0.50cm;
+    margin-left: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;  
+}
+/*hobbies FIN*/
+
+/*Formacion Academica*/
+.tituloformacion{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1cm;
+}
+#imgformacion{
+    width: 28cm;
+    margin-left: 135px;
+}
+.formacademica{
+    background-color:lightslategray;
+}
+/*Formacion academica fin*/
+
+/*Experiencia Profesional*/
+.titlepro{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1cm;
+}
+.proyecto1{
+    width: 750px;
+    margin-left: 70px;
+}
+#tituloproyecto1{
+    float: right;
+    margin-right: 125px;
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1cm;
+}
+#txtproyecto{
+    font-family: 'Roboto', sans-serif;  
+    float: right;
+    font-size: 1cm;
+    margin-right: 200px;
+    margin-bottom: 1cm;
+}
+.proyecto2{
+    width: 750px;
+    margin-right: 70px;  
+    float:right ;
+    margin-top: 75px;
+
+}
+.titleproyecto2{
+    float: left;
+    margin-left: 320px;
+    margin-top: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1cm;  
+}
+/*Experiencia Profesional FIN*/
+
+/*Contacto*/
+.contact{
+    margin-top: 800px;
+}
+.titlecontact{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1cm;  
+    text-align: center;
+}
+.txtcontact{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.6cm; 
+}
+form{
+    width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 17px;
+}
+#botonform{
+    background-color: lightslategray;
+    font-family: 'Roboto', sans-serif;
+    width: 520px;
+    font-weight: 600;
+}
+#botonform:hover{
+    cursor: pointer;
+}
+/*Contacto FIN*/
+
+/*Footer*/
+.footer{
+    background-color: white;
+    margin-top: 20px;
+height: 51px;
+}
+.txtfoot{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/*Footer FIN*/
